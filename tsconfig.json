@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["es2021", "DOM"],
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/typescript"],
+  "exclude": ["node_modules", "dist", "docs", "recipes", "packages/**/*.mdx"]
+}

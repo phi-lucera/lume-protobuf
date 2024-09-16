@@ -1,0 +1,89 @@
+syntax = "proto3";
+
+package treasury;
+
+message Inquiry {
+  string id = 1;
+  string tier = 2;
+  InquiryType type = 3;
+  repeated string primaryCoveringTraders = 4;
+  repeated string secondaryCoveringTraders = 5;
+  int32 numberOfDealers = 6;
+  bool isActive = 7;
+  bool showInquiryPopup = 8;
+  string title = 9;
+  string clientAccount = 10;
+  string clientID = 11;
+  string clientName = 12;
+  string contact = 13;
+  string salesPerson = 14;
+  int32 wireTime = 15;
+  int32 wiretimeExpiration = 16;
+  int32 coverSpread = 17;
+  int32 spread = 18;
+  repeated Leg legs = 19;
+  string status = 20;
+  string venue = 21;
+  int32 transactTime = 22;
+  int32 expireTime = 23;
+  int32 hitLiftExpiration = 24;
+  int32 quotedCount = 25;
+  string autoQuoteStatus = 26;
+  string actingTraderId = 27;
+  bool autoRejected = 28;
+  string autoRejectReason = 29;
+  string errorReason = 30;
+  InquiryDate settlement = 31; // Updated field
+}
+
+enum InquiryType {
+  ORDER_PROPOSAL = 0;
+  REGULAR_QUOTE_REQUEST = 1;
+}
+
+message Leg {
+  string legId = 1;
+  bool isUnlocked = 2;
+  Side side = 3;
+  int32 quantity = 4;
+  string instrumentId = 5;
+  string marketSymbol = 6;
+  InquiryDate settlement = 7;
+  int32 price = 8;
+  int32 originalPrice = 9;
+  int32 cover = 10;
+  int32 yield = 11;
+  int32 position = 12;
+  int32 numberOfDaysToSettle = 13;
+  bool standardSettleDate = 14;
+  int32 risk = 15;
+  int32 repoRate = 16; // Only included if the quote has a non-standard settle date
+  int32 originalRepoRate = 17;
+  int32 repoRatePrice = 18;
+  string sectorId = 19;
+  int32 originalRepoRatePrice = 20;
+  int32 repoUpdatedTimestamp = 21;
+  MarketData marketData = 22;
+}
+
+enum Side {
+  SELL = 0;
+  BUY = 1;
+}
+
+message InquiryDate {
+  int32 year = 1;
+  int32 month = 2;
+  int32 day = 3;
+}
+
+message MarketData {
+  int32 mapxBidPrice = 1;
+  int32 mapxBidYield = 2;
+  int32 mapxOfferPrice = 3;
+  int32 mapxOfferYield = 4;
+  int32 twebBidPrice = 5;
+  int32 twebBidYield = 6;
+  int32 twebOfferPrice = 7;
+  int32 twebOfferYield = 8;
+}
