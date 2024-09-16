@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsup",
     "gen:ts": "npx buf generate",
-    "gen:java": "protoc --java_out=./src/gen/java proto/*.proto"
+    "gen:java": "protoc --java_out=./src/java proto/*.proto"
   },
   "author": "pnguyen",
   "license": "ISC",
