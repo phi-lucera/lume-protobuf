@@ -3,7 +3,7 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.protobuf.treasury.inquiry;
 
 public interface InquiryDateOrBuilder extends
     // @@protoc_insertion_point(interface_extends:treasury.InquiryDate)

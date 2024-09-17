@@ -3,7 +3,7 @@ syntax = "proto3";
 package treasury;
 
 option java_multiple_files = true;
-option java_package = "com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate";
+option java_package = "com.lucera.lumemarkets.protobuf.treasury.traderstate";
 option java_outer_classname = "TraderStateProtos";
 
 message TraderState {

@@ -3,7 +3,7 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.protobuf.treasury.inquiry;
 
 public interface InquiryOrBuilder extends
     // @@protoc_insertion_point(interface_extends:treasury.Inquiry)
@@ -42,7 +42,7 @@ public interface InquiryOrBuilder extends
    * <code>.treasury.InquiryType type = 3;</code>
    * @return The type.
    */
-  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryType getType();
+  com.lucera.lumemarkets.protobuf.treasury.inquiry.InquiryType getType();
 
   /**
    * <code>repeated string primaryCoveringTraders = 4;</code>
@@ -211,12 +211,12 @@ public interface InquiryOrBuilder extends
   /**
    * <code>repeated .treasury.Leg legs = 19;</code>
    */
-  java.util.List<com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.Leg> 
+  java.util.List<com.lucera.lumemarkets.protobuf.treasury.inquiry.Leg> 
       getLegsList();
   /**
    * <code>repeated .treasury.Leg legs = 19;</code>
    */
-  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.Leg getLegs(int index);
+  com.lucera.lumemarkets.protobuf.treasury.inquiry.Leg getLegs(int index);
   /**
    * <code>repeated .treasury.Leg legs = 19;</code>
    */
@@ -224,12 +224,12 @@ public interface InquiryOrBuilder extends
   /**
    * <code>repeated .treasury.Leg legs = 19;</code>
    */
-  java.util.List<? extends com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.LegOrBuilder> 
+  java.util.List<? extends com.lucera.lumemarkets.protobuf.treasury.inquiry.LegOrBuilder> 
       getLegsOrBuilderList();
   /**
    * <code>repeated .treasury.Leg legs = 19;</code>
    */
-  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.LegOrBuilder getLegsOrBuilder(
+  com.lucera.lumemarkets.protobuf.treasury.inquiry.LegOrBuilder getLegsOrBuilder(
       int index);
 
   /**
@@ -351,7 +351,7 @@ public interface InquiryOrBuilder extends
    * <code>.treasury.InquiryDate settlement = 31;</code>
    * @return The settlement.
    */
-  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryDate getSettlement();
+  com.lucera.lumemarkets.protobuf.treasury.inquiry.InquiryDate getSettlement();
   /**
    * <pre>
    * Updated field
@@ -359,5 +359,5 @@ public interface InquiryOrBuilder extends
    *
    * <code>.treasury.InquiryDate settlement = 31;</code>
    */
-  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryDateOrBuilder getSettlementOrBuilder();
+  com.lucera.lumemarkets.protobuf.treasury.inquiry.InquiryDateOrBuilder getSettlementOrBuilder();
 }

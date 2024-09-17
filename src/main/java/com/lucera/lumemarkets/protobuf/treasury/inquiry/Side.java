@@ -3,21 +3,21 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.protobuf.treasury.inquiry;
 
 /**
- * Protobuf enum {@code treasury.InquiryType}
+ * Protobuf enum {@code treasury.Side}
  */
-public enum InquiryType
+public enum Side
     implements com.google.protobuf.ProtocolMessageEnum {
   /**
-   * <code>ORDER_PROPOSAL = 0;</code>
+   * <code>SELL = 0;</code>
    */
-  ORDER_PROPOSAL(0),
+  SELL(0),
   /**
-   * <code>REGULAR_QUOTE_REQUEST = 1;</code>
+   * <code>BUY = 1;</code>
    */
-  REGULAR_QUOTE_REQUEST(1),
+  BUY(1),
   UNRECOGNIZED(-1),
   ;
 
@@ -28,16 +28,16 @@ public enum InquiryType
       /* minor= */ 28,
       /* patch= */ 1,
       /* suffix= */ "",
-      InquiryType.class.getName());
+      Side.class.getName());
   }
   /**
-   * <code>ORDER_PROPOSAL = 0;</code>
+   * <code>SELL = 0;</code>
    */
-  public static final int ORDER_PROPOSAL_VALUE = 0;
+  public static final int SELL_VALUE = 0;
   /**
-   * <code>REGULAR_QUOTE_REQUEST = 1;</code>
+   * <code>BUY = 1;</code>
    */
-  public static final int REGULAR_QUOTE_REQUEST_VALUE = 1;
+  public static final int BUY_VALUE = 1;
 
 
   public final int getNumber() {
@@ -54,7 +54,7 @@ public enum InquiryType
    * @deprecated Use {@link #forNumber(int)} instead.
    */
   @java.lang.Deprecated
-  public static InquiryType valueOf(int value) {
+  public static Side valueOf(int value) {
     return forNumber(value);
   }
 
@@ -62,23 +62,23 @@ public enum InquiryType
    * @param value The numeric wire value of the corresponding enum entry.
    * @return The enum associated with the given numeric wire value.
    */
-  public static InquiryType forNumber(int value) {
+  public static Side forNumber(int value) {
     switch (value) {
-      case 0: return ORDER_PROPOSAL;
-      case 1: return REGULAR_QUOTE_REQUEST;
+      case 0: return SELL;
+      case 1: return BUY;
       default: return null;
     }
   }
 
-  public static com.google.protobuf.Internal.EnumLiteMap<InquiryType>
+  public static com.google.protobuf.Internal.EnumLiteMap<Side>
       internalGetValueMap() {
     return internalValueMap;
   }
   private static final com.google.protobuf.Internal.EnumLiteMap<
-      InquiryType> internalValueMap =
-        new com.google.protobuf.Internal.EnumLiteMap<InquiryType>() {
-          public InquiryType findValueByNumber(int number) {
-            return InquiryType.forNumber(number);
+      Side> internalValueMap =
+        new com.google.protobuf.Internal.EnumLiteMap<Side>() {
+          public Side findValueByNumber(int number) {
+            return Side.forNumber(number);
           }
         };
 
@@ -96,12 +96,12 @@ public enum InquiryType
   }
   public static final com.google.protobuf.Descriptors.EnumDescriptor
       getDescriptor() {
-    return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.getDescriptor().getEnumTypes().get(0);
+    return com.lucera.lumemarkets.protobuf.treasury.inquiry.InquiryProtos.getDescriptor().getEnumTypes().get(1);
   }
 
-  private static final InquiryType[] VALUES = values();
+  private static final Side[] VALUES = values();
 
-  public static InquiryType valueOf(
+  public static Side valueOf(
       com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
     if (desc.getType() != getDescriptor()) {
       throw new java.lang.IllegalArgumentException(
@@ -115,10 +115,10 @@ public enum InquiryType
 
   private final int value;
 
-  private InquiryType(int value) {
+  private Side(int value) {
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:treasury.InquiryType)
+  // @@protoc_insertion_point(enum_scope:treasury.Side)
 }
 

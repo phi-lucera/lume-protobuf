@@ -3,7 +3,7 @@
 // source: proto/traderState.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate;
+package com.lucera.lumemarkets.protobuf.treasury.traderstate;
 
 public final class TraderStateProtos {
   private TraderStateProtos() {}
@@ -40,10 +40,9 @@ public final class TraderStateProtos {
   static {
     java.lang.String[] descriptorData = {
       "\n\027proto/traderState.proto\022\010treasury\"\035\n\013T" +
-      "raderState\022\016\n\006active\030\001 \001(\010BW\n@com.lucera" +
-      ".lumemarkets.lumemarkets-protobuf.treasu" +
-      "ry.traderstateB\021TraderStateProtosP\001b\006pro" +
-      "to3"
+      "raderState\022\016\n\006active\030\001 \001(\010BK\n4com.lucera" +
+      ".lumemarkets.protobuf.treasury.tradersta" +
+      "teB\021TraderStateProtosP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

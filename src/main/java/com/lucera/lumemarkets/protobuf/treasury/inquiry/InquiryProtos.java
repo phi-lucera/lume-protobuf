@@ -3,7 +3,7 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.protobuf.treasury.inquiry;
 
 public final class InquiryProtos {
   private InquiryProtos() {}
@@ -94,9 +94,9 @@ public final class InquiryProtos {
       "\005\022\026\n\016twebOfferPrice\030\007 \001(\005\022\026\n\016twebOfferYi" +
       "eld\030\010 \001(\005*<\n\013InquiryType\022\022\n\016ORDER_PROPOS" +
       "AL\020\000\022\031\n\025REGULAR_QUOTE_REQUEST\020\001*\031\n\004Side\022" +
-      "\010\n\004SELL\020\000\022\007\n\003BUY\020\001BO\n<com.lucera.lumemar" +
-      "kets.lumemarkets-protobuf.treasury.inqui" +
-      "ryB\rInquiryProtosP\001b\006proto3"
+      "\010\n\004SELL\020\000\022\007\n\003BUY\020\001BC\n0com.lucera.lumemar" +
+      "kets.protobuf.treasury.inquiryB\rInquiryP" +
+      "rotosP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

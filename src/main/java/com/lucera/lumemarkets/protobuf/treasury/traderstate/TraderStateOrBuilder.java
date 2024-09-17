@@ -3,7 +3,7 @@
 // source: proto/traderState.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate;
+package com.lucera.lumemarkets.protobuf.treasury.traderstate;
 
 public interface TraderStateOrBuilder extends
     // @@protoc_insertion_point(interface_extends:treasury.TraderState)
