@@ -3,7 +3,7 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lume.protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
 
 /**
  * Protobuf type {@code treasury.MarketData}
@@ -31,15 +31,15 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.lucera.lume.protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
+    return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.lucera.lume.protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_fieldAccessorTable
+    return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            com.lucera.lume.protobuf.treasury.inquiry.MarketData.class, com.lucera.lume.protobuf.treasury.inquiry.MarketData.Builder.class);
+            com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.class, com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.Builder.class);
   }
 
   public static final int MAPXBIDPRICE_FIELD_NUMBER = 1;
@@ -219,10 +219,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof com.lucera.lume.protobuf.treasury.inquiry.MarketData)) {
+    if (!(obj instanceof com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData)) {
       return super.equals(obj);
     }
-    com.lucera.lume.protobuf.treasury.inquiry.MarketData other = (com.lucera.lume.protobuf.treasury.inquiry.MarketData) obj;
+    com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData other = (com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData) obj;
 
     if (getMapxBidPrice()
         != other.getMapxBidPrice()) return false;
@@ -272,44 +272,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(byte[] data)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(java.io.InputStream input)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -317,26 +317,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseDelimitedFrom(java.io.InputStream input)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseDelimitedFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -349,7 +349,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(com.lucera.lume.protobuf.treasury.inquiry.MarketData prototype) {
+  public static Builder newBuilder(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -370,21 +370,21 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:treasury.MarketData)
-      com.lucera.lume.protobuf.treasury.inquiry.MarketDataOrBuilder {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketDataOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.lucera.lume.protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.lucera.lume.protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_fieldAccessorTable
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.lucera.lume.protobuf.treasury.inquiry.MarketData.class, com.lucera.lume.protobuf.treasury.inquiry.MarketData.Builder.class);
+              com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.class, com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.Builder.class);
     }
 
-    // Construct using com.lucera.lume.protobuf.treasury.inquiry.MarketData.newBuilder()
+    // Construct using com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.newBuilder()
     private Builder() {
 
     }
@@ -412,17 +412,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.lucera.lume.protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryProtos.internal_static_treasury_MarketData_descriptor;
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.inquiry.MarketData getDefaultInstanceForType() {
-      return com.lucera.lume.protobuf.treasury.inquiry.MarketData.getDefaultInstance();
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData getDefaultInstanceForType() {
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.getDefaultInstance();
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.inquiry.MarketData build() {
-      com.lucera.lume.protobuf.treasury.inquiry.MarketData result = buildPartial();
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData build() {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -430,14 +430,14 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.inquiry.MarketData buildPartial() {
-      com.lucera.lume.protobuf.treasury.inquiry.MarketData result = new com.lucera.lume.protobuf.treasury.inquiry.MarketData(this);
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData buildPartial() {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData result = new com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData(this);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartial0(com.lucera.lume.protobuf.treasury.inquiry.MarketData result) {
+    private void buildPartial0(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData result) {
       int from_bitField0_ = bitField0_;
       if (((from_bitField0_ & 0x00000001) != 0)) {
         result.mapxBidPrice_ = mapxBidPrice_;
@@ -467,16 +467,16 @@ private static final long serialVersionUID = 0L;
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.lucera.lume.protobuf.treasury.inquiry.MarketData) {
-        return mergeFrom((com.lucera.lume.protobuf.treasury.inquiry.MarketData)other);
+      if (other instanceof com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData) {
+        return mergeFrom((com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(com.lucera.lume.protobuf.treasury.inquiry.MarketData other) {
-      if (other == com.lucera.lume.protobuf.treasury.inquiry.MarketData.getDefaultInstance()) return this;
+    public Builder mergeFrom(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData other) {
+      if (other == com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData.getDefaultInstance()) return this;
       if (other.getMapxBidPrice() != 0) {
         setMapxBidPrice(other.getMapxBidPrice());
       }
@@ -844,12 +844,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:treasury.MarketData)
-  private static final com.lucera.lume.protobuf.treasury.inquiry.MarketData DEFAULT_INSTANCE;
+  private static final com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.lucera.lume.protobuf.treasury.inquiry.MarketData();
+    DEFAULT_INSTANCE = new com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData();
   }
 
-  public static com.lucera.lume.protobuf.treasury.inquiry.MarketData getDefaultInstance() {
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -885,7 +885,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public com.lucera.lume.protobuf.treasury.inquiry.MarketData getDefaultInstanceForType() {
+  public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

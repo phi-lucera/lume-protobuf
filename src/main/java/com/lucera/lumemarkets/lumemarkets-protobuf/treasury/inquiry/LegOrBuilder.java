@@ -3,7 +3,7 @@
 // source: proto/inquiry.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lume.protobuf.treasury.inquiry;
+package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry;
 
 public interface LegOrBuilder extends
     // @@protoc_insertion_point(interface_extends:treasury.Leg)
@@ -36,7 +36,7 @@ public interface LegOrBuilder extends
    * <code>.treasury.Side side = 3;</code>
    * @return The side.
    */
-  com.lucera.lume.protobuf.treasury.inquiry.Side getSide();
+  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.Side getSide();
 
   /**
    * <code>int32 quantity = 4;</code>
@@ -77,11 +77,11 @@ public interface LegOrBuilder extends
    * <code>.treasury.InquiryDate settlement = 7;</code>
    * @return The settlement.
    */
-  com.lucera.lume.protobuf.treasury.inquiry.InquiryDate getSettlement();
+  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryDate getSettlement();
   /**
    * <code>.treasury.InquiryDate settlement = 7;</code>
    */
-  com.lucera.lume.protobuf.treasury.inquiry.InquiryDateOrBuilder getSettlementOrBuilder();
+  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.InquiryDateOrBuilder getSettlementOrBuilder();
 
   /**
    * <code>int32 price = 8;</code>
@@ -186,9 +186,9 @@ public interface LegOrBuilder extends
    * <code>.treasury.MarketData marketData = 22;</code>
    * @return The marketData.
    */
-  com.lucera.lume.protobuf.treasury.inquiry.MarketData getMarketData();
+  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketData getMarketData();
   /**
    * <code>.treasury.MarketData marketData = 22;</code>
    */
-  com.lucera.lume.protobuf.treasury.inquiry.MarketDataOrBuilder getMarketDataOrBuilder();
+  com.lucera.lumemarkets.lumemarkets-protobuf.treasury.inquiry.MarketDataOrBuilder getMarketDataOrBuilder();
 }

@@ -3,7 +3,7 @@
 // source: proto/traderState.proto
 // Protobuf Java Version: 4.28.1
 
-package com.lucera.lume.protobuf.treasury.traderstate;
+package com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate;
 
 /**
  * Protobuf type {@code treasury.TraderState}
@@ -31,15 +31,15 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.lucera.lume.protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
+    return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.lucera.lume.protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_fieldAccessorTable
+    return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            com.lucera.lume.protobuf.treasury.traderstate.TraderState.class, com.lucera.lume.protobuf.treasury.traderstate.TraderState.Builder.class);
+            com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.class, com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.Builder.class);
   }
 
   public static final int ACTIVE_FIELD_NUMBER = 1;
@@ -93,10 +93,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof com.lucera.lume.protobuf.treasury.traderstate.TraderState)) {
+    if (!(obj instanceof com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState)) {
       return super.equals(obj);
     }
-    com.lucera.lume.protobuf.treasury.traderstate.TraderState other = (com.lucera.lume.protobuf.treasury.traderstate.TraderState) obj;
+    com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState other = (com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState) obj;
 
     if (getActive()
         != other.getActive()) return false;
@@ -119,44 +119,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(byte[] data)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(java.io.InputStream input)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -164,26 +164,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseDelimitedFrom(java.io.InputStream input)
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseDelimitedFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState parseFrom(
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -196,7 +196,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(com.lucera.lume.protobuf.treasury.traderstate.TraderState prototype) {
+  public static Builder newBuilder(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -217,21 +217,21 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:treasury.TraderState)
-      com.lucera.lume.protobuf.treasury.traderstate.TraderStateOrBuilder {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.lucera.lume.protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.lucera.lume.protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_fieldAccessorTable
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.lucera.lume.protobuf.treasury.traderstate.TraderState.class, com.lucera.lume.protobuf.treasury.traderstate.TraderState.Builder.class);
+              com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.class, com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.Builder.class);
     }
 
-    // Construct using com.lucera.lume.protobuf.treasury.traderstate.TraderState.newBuilder()
+    // Construct using com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.newBuilder()
     private Builder() {
 
     }
@@ -252,17 +252,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.lucera.lume.protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderStateProtos.internal_static_treasury_TraderState_descriptor;
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.traderstate.TraderState getDefaultInstanceForType() {
-      return com.lucera.lume.protobuf.treasury.traderstate.TraderState.getDefaultInstance();
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState getDefaultInstanceForType() {
+      return com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.getDefaultInstance();
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.traderstate.TraderState build() {
-      com.lucera.lume.protobuf.treasury.traderstate.TraderState result = buildPartial();
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState build() {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -270,14 +270,14 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public com.lucera.lume.protobuf.treasury.traderstate.TraderState buildPartial() {
-      com.lucera.lume.protobuf.treasury.traderstate.TraderState result = new com.lucera.lume.protobuf.treasury.traderstate.TraderState(this);
+    public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState buildPartial() {
+      com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState result = new com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState(this);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartial0(com.lucera.lume.protobuf.treasury.traderstate.TraderState result) {
+    private void buildPartial0(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState result) {
       int from_bitField0_ = bitField0_;
       if (((from_bitField0_ & 0x00000001) != 0)) {
         result.active_ = active_;
@@ -286,16 +286,16 @@ private static final long serialVersionUID = 0L;
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.lucera.lume.protobuf.treasury.traderstate.TraderState) {
-        return mergeFrom((com.lucera.lume.protobuf.treasury.traderstate.TraderState)other);
+      if (other instanceof com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState) {
+        return mergeFrom((com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(com.lucera.lume.protobuf.treasury.traderstate.TraderState other) {
-      if (other == com.lucera.lume.protobuf.treasury.traderstate.TraderState.getDefaultInstance()) return this;
+    public Builder mergeFrom(com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState other) {
+      if (other == com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState.getDefaultInstance()) return this;
       if (other.getActive() != false) {
         setActive(other.getActive());
       }
@@ -383,12 +383,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:treasury.TraderState)
-  private static final com.lucera.lume.protobuf.treasury.traderstate.TraderState DEFAULT_INSTANCE;
+  private static final com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.lucera.lume.protobuf.treasury.traderstate.TraderState();
+    DEFAULT_INSTANCE = new com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState();
   }
 
-  public static com.lucera.lume.protobuf.treasury.traderstate.TraderState getDefaultInstance() {
+  public static com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -424,7 +424,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public com.lucera.lume.protobuf.treasury.traderstate.TraderState getDefaultInstanceForType() {
+  public com.lucera.lumemarkets.lumemarkets-protobuf.treasury.traderstate.TraderState getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
