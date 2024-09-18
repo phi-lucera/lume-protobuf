@@ -10,7 +10,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file traderState.proto.
  */
 export const file_traderState: GenFile = /*@__PURE__*/
-  fileDesc("ChF0cmFkZXJTdGF0ZS5wcm90bxIIdHJlYXN1cnkiHQoLVHJhZGVyU3RhdGUSDgoGYWN0aXZlGAEgASgIQkQKLWNvbS5sdWNlcmEubHVtZS5wcm90b2J1Zi50cmVhc3VyeS50cmFkZXJzdGF0ZUIRVHJhZGVyU3RhdGVQcm90b3NQAWIGcHJvdG8z");
+  fileDesc("ChF0cmFkZXJTdGF0ZS5wcm90bxIIdHJlYXN1cnkiHQoLVHJhZGVyU3RhdGUSDgoGYWN0aXZlGAEgASgIQksKNGNvbS5sdWNlcmEubHVtZW1hcmtldHMucHJvdG9idWYudHJlYXN1cnkudHJhZGVyc3RhdGVCEVRyYWRlclN0YXRlUHJvdG9zUAFiBnByb3RvMw");
 
 /**
  * @generated from message treasury.TraderState
