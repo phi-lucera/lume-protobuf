@@ -3,11 +3,7 @@
   "version": "1.0.4",
   "description": "Lucera Protobuf Library",
   "scripts": {
-    "build": "tsup",
-    "gen:ts": "npx buf generate",
-    "gen:java": "protoc --java_out=./src/main/java proto/*.proto",
-    "gen": "npx buf generate && protoc --java_out=./src/main/java proto/*.proto",
-    "prepublishOnly": "npm run gen:ts && npm run build"
+    "prepublishOnly": "npx buf generate && tsup"
   },
   "author": "pnguyen",
   "license": "ISC",
