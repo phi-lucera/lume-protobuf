@@ -3,3 +3,13 @@
 # Build files
 /dist
 /target
+
+# Generated files
+/src/typescript
+
+# Include typescript index.ts
+!src/typescript/index.ts
+
+# User config files
+/.idea
+/.vscode
