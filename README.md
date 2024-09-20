@@ -3,8 +3,7 @@
 ### Scripts
 
 - `npm publish`: Compiles proto files to typescript, builds package, and publishes to nexus
-- `mvn clean compile`: Compiles proto files to java classes
-- `mvn package`: Builds java jar file from compiled java classes
+- `mvn clean package`: Compiles proto files to java classes and builds jar file
 
 ### Libraries
 
